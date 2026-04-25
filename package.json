@@ -1,0 +1,16 @@
+{
+  "name": "codex-accounts",
+  "version": "0.1.0",
+  "description": "Fast account switcher for the native Codex CLI using isolated CODEX_HOME directories.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "bin": {
+    "cx": "./bin/cx.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
